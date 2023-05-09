@@ -1,8 +1,8 @@
-const Button = (props) => {
-  const { className, buttonText } = props;
-
-  return <button className={`button ${className}`}>{buttonText}</button>;
-};
+const Button = props => {
+  const {className, buttonText} = props
+  
+  return <button className={`button ${className}`}>{buttonText}</button>
+}
 
 const element = (
   <div className="social-buttons-container">
@@ -15,5 +15,6 @@ const element = (
       </div>
     </div>
   </div>
-);
-ReactDOM.render(element, document.getElementById("root"));
+)
+
+ReactDOM.render(element, document.getElementById('root'))
